@@ -5,7 +5,7 @@
         "VTiger Base Connector | Vtiger Integration with Odoo | "
         "Odoo Vtiger Connector"
     ),
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "summary": """
         Advanced Vtiger Base Connector | Vtiger Base Connector |
         Vtiger Odoo Connector | Vtiger Odoo Integration |
@@ -27,6 +27,7 @@
     "maintainer": "Serpent Consulting Services Pvt. Ltd.",
     "website": "https://www.serpentcs.com",
     "depends": ["base"],
+    "external_dependencies": {"python": ["requests"]},
     "data": ["data/vtiger_connector_base_data.xml", "views/res_company_view.xml"],
     "installable": True,
     "assets": {
